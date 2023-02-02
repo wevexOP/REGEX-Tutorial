@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# REGEX Tutorial and Cheat Sheet!
 
-Introductory paragraph (replace this with your text)
+Welcome users, this small repository was built and developed to house a REGEX (regular expression) example, and cheat sheet. Covering basic topics withing this markdown fil, you can see how various symbols come to have new meanings and values as we get deeper into understanding how REGEX syntax works. Explore this document to get a better understanding of how REGEX is used and understood in the world of software development. 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Some of the important reasons REGEX is used today is mainly to extract data and information from all types of text. This comes in the form of unicode for all data types. Within this REGEX tutorial we will cover some of the more common symbol types as well as their functionality withing the REGEX scope of data cultivation. 
 
 ## Table of Contents
 
@@ -22,9 +22,17 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Regex Components
 
-### Anchors
+### Anchors: ^ and $
 
-### Quantifiers
+^The        matches any string that starts with The -> Try it!
+
+end$        matches a string that ends with end
+
+^The end$   exact string match (starts and ends with The end)
+
+roar        matches any string that has the text roar in it
+
+### Quantifiers: * + ? and {}
 
 ### OR Operator
 
